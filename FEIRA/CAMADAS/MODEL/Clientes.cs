@@ -13,7 +13,7 @@ namespace FEIRA.CAMADAS.MODEL
         public string rua { get; set; }
         public int numero { get; set; }
         public string cidade { get; set; }
-        public char estado { get; set; }
+        public string estado { get; set; }
         public string cpf { get; set; }
         public string telefone { get; set; }
         public string email { get; set; }
