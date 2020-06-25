@@ -16,7 +16,7 @@ namespace FEIRA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formProdutos());
+            Application.Run(new formMenu());
         }
     }
 }

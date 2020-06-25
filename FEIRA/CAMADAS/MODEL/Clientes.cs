@@ -17,6 +17,6 @@ namespace FEIRA.CAMADAS.MODEL
         public string cpf { get; set; }
         public string telefone { get; set; }
         public string email { get; set; }
-        public string nascimento { get; set; }
+        public DateTime nascimento { get; set; }
     }
 }

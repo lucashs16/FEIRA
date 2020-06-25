@@ -34,7 +34,7 @@ namespace FEIRA.CAMADAS.DAL
                     cliente.cpf = dados["cpf"].ToString();
                     cliente.telefone = dados["telefone"].ToString();
                     cliente.email = dados["email"].ToString();
-                    cliente.nascimento = dados["nascimento"].ToString();
+                    cliente.nascimento = Convert.ToDateTime(dados["nascimento"]);
 
                     lstClientes.Add(cliente);
                 }
@@ -49,6 +49,80 @@ namespace FEIRA.CAMADAS.DAL
             }
 
             return lstClientes;
+        }
+
+        public MODEL.Clientes SelectByID(int id)
+        {
+            MODEL.Clientes cliente = new MODEL.Clientes();
+            SqlConnection conexao = new SqlConnection(strCon);
+            string sql = "SELECT * FROM Clientes WHERE id=@id;";
+            SqlCommand cmd = new SqlCommand(sql, conexao);
+            cmd.Parameters.AddWithValue("id", id);
+            try
+            {
+                conexao.Open();
+                SqlDataReader dados = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                if (dados.Read())
+                {
+                    cliente.id = Convert.ToInt32(dados["id"].ToString());
+                    cliente.nome = dados["nome"].ToString();
+                    cliente.rua = dados["rua"].ToString();
+                    cliente.numero = Convert.ToInt32(dados["numero"].ToString());
+                    cliente.cidade = dados["cidade"].ToString();
+                    cliente.estado = dados["estado"].ToString();
+                    cliente.cpf = dados["cpf"].ToString();
+                    cliente.telefone = dados["telefone"].ToString();
+                    cliente.email = dados["email"].ToString();
+                    cliente.nascimento = Convert.ToDateTime(dados["nascimento"]);
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Deu erro na consulta de Clientes por ID...");
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+            return cliente;
+        }
+
+        public MODEL.Clientes SelectByNome(string nome)
+        {
+            MODEL.Clientes cliente = new MODEL.Clientes();
+            SqlConnection conexao = new SqlConnection(strCon);
+            string sql = "SELECT * FROM Clientes WHERE(nome LIKE @nome)";
+            SqlCommand cmd = new SqlCommand(sql, conexao);
+            cmd.Parameters.AddWithValue("@nome", "%" + nome.Trim() + "%");
+            try
+            {
+                conexao.Open();
+                SqlDataReader dados = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                if (dados.Read())
+                {
+                    cliente.id = Convert.ToInt32(dados["id"].ToString());
+                    cliente.nome = dados["nome"].ToString();
+                    cliente.rua = dados["rua"].ToString();
+                    cliente.numero = Convert.ToInt32(dados["numero"].ToString());
+                    cliente.cidade = dados["cidade"].ToString();
+                    cliente.estado = dados["estado"].ToString();
+                    cliente.cpf = dados["cpf"].ToString();
+                    cliente.telefone = dados["telefone"].ToString();
+                    cliente.email = dados["email"].ToString();
+                    cliente.nascimento = Convert.ToDateTime(dados["nascimento"]);
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Deu erro na consulta de Clientes por Nome...");
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+            return cliente;
         }
 
         public void Insert (MODEL.Clientes cliente)
@@ -72,7 +146,7 @@ namespace FEIRA.CAMADAS.DAL
                 conexao.Open();
                 cmd.ExecuteNonQuery();
             }
-            catch
+            catch (Exception ex)
             {
                 Console.WriteLine("Erro na inserção de clientes...");
             }

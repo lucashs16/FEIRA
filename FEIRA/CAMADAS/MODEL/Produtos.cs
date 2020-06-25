@@ -12,8 +12,9 @@ namespace FEIRA.CAMADAS.MODEL
         public string descricao { get; set; }
         public float valor_venda { get; set; }
         public float valor_compra { get; set; }
-        public string vencimento { get; set; }
+        public DateTime vencimento { get; set; }
         public string fornecedor { get; set; }
         public int quantidade { get; set; }
+        public int tipoProdutoId { get; set; }
     }
 }

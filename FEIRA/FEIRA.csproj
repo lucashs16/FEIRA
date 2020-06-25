@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>FEIRA</RootNamespace>
     <AssemblyName>FEIRA</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,12 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAMADAS\BLL\Clientes.cs" />
     <Compile Include="CAMADAS\BLL\Produtos.cs" />
+    <Compile Include="CAMADAS\BLL\TipoProdutos.cs" />
+    <Compile Include="CAMADAS\BLL\Vendas.cs" />
     <Compile Include="CAMADAS\DAL\Clientes.cs" />
     <Compile Include="CAMADAS\DAL\Conexao.cs" />
     <Compile Include="CAMADAS\DAL\Produtos.cs" />
+    <Compile Include="CAMADAS\DAL\TipoProdutos.cs" />
+    <Compile Include="CAMADAS\DAL\Vendas.cs" />
     <Compile Include="CAMADAS\MODEL\Clientes.cs" />
     <Compile Include="CAMADAS\MODEL\Produtos.cs" />
+    <Compile Include="CAMADAS\MODEL\TipoProdutos.cs" />
     <Compile Include="CAMADAS\MODEL\Vendas.cs" />
     <Compile Include="formProdutos.cs">
       <SubType>Form</SubType>
@@ -65,13 +72,51 @@
     <Compile Include="formClientes.Designer.cs">
       <DependentUpon>formClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="formMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMenu.Designer.cs">
+      <DependentUpon>formMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSobre.Designer.cs">
+      <DependentUpon>formSobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formTipoProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formTipoProdutos.Designer.cs">
+      <DependentUpon>formTipoProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formVendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formVendas.Designer.cs">
+      <DependentUpon>formVendas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RELATORIO\Funcoes.cs" />
+    <Compile Include="RELATORIO\RelGerais.cs" />
     <EmbeddedResource Include="formProdutos.resx">
       <DependentUpon>formProdutos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formClientes.resx">
       <DependentUpon>formClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMenu.resx">
+      <DependentUpon>formMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSobre.resx">
+      <DependentUpon>formSobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formTipoProdutos.resx">
+      <DependentUpon>formTipoProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formVendas.resx">
+      <DependentUpon>formVendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,6 +126,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -94,6 +140,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sem título.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sem título1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sem título2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sem título3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sem título21.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
