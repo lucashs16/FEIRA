@@ -1,0 +1,44 @@
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\bin\Debug\FEIRA.exe.config
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\bin\Debug\FEIRA.exe
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\bin\Debug\FEIRA.pdb
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.csprojAssemblyReference.cache
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.Properties.Resources.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.csproj.GenerateResource.cache
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.exe
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.pdb
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.formClientes.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.formProdutos.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.formMenu.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.formSobre.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.formVendas.resources
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\bin\Debug\FEIRA.exe.config
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\bin\Debug\FEIRA.exe
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\bin\Debug\FEIRA.pdb
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.csprojAssemblyReference.cache
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.formProdutos.resources
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.formClientes.resources
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.formMenu.resources
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.formSobre.resources
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.formVendas.resources
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.Properties.Resources.resources
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.csproj.GenerateResource.cache
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.csproj.CoreCompileInputs.cache
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.exe
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.pdb
+C:\SiT\FeiraProjeto\FEIRA\FEIRA\FEIRA\obj\Debug\FEIRA.formTipoProdutos.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\bin\Debug\FEIRA.exe.config
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\bin\Debug\FEIRA.exe
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\bin\Debug\FEIRA.pdb
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.csprojAssemblyReference.cache
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.formProdutos.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.formClientes.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.formMenu.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.formSobre.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.formTipoProdutos.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.formVendas.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.Properties.Resources.resources
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.csproj.GenerateResource.cache
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.exe
+C:\Users\lucas\Documents\Linguagem de Programação\FEIRA2\FEIRA\FEIRA\obj\Debug\FEIRA.pdb
